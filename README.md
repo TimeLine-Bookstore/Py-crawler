@@ -1,8 +1,8 @@
 ## 维基HTML代码存档（Py-crawler）
 
-**Warning：使用爬虫需要安装bs4库和requests库！**
+**配置要求：使用爬虫需要安装bs4库和requests库！**
 
-使用以下代码安装：
+请使用以下代码安装：
 ```
 pip install requests
 pip install bs4
