@@ -13,3 +13,5 @@ pip install bs4
 运行时启用RunMe.vbs(GUI)或main.exe(CLI)
 
 Linux用户自行编译。
+
+生成的a.html可以删除
