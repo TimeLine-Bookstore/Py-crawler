@@ -32,5 +32,5 @@ Run with EnRunMe.vbs(GUI) ,the batchfile or main.exe(CLI).
 
 ---------
 
-Copyright (c) 2022 TimeLine-Bookstore
+Copyright (c) 2022 TimeLine-Bookstore  
 All Rights Reserved.
