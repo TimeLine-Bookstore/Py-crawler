@@ -7,13 +7,17 @@ string char_to_str(char ch[]){
 	}
 	return s;
 }
-int main(){
+int main(int argc,char** argv){
 	ofstream fout ("a.html");
 	fout.close();
-	cout<<"Example: http://helloos.wikidot.com/"<<endl;
-	cout<<"Input URL> ";
 	char url[1024];
-	gets(url);
+	if(argc==1){
+	    cout<<"Example: http://helloos.wikidot.com/"<<endl;
+	    cout<<"Input URL> ";
+	    gets(url);
+	}else{
+	    sprintf(url,"%s",argv[1]);
+	}
 	char cmd[1536];
 	sprintf(cmd,"crawler.py %s",url);
 	int a=system(cmd);
@@ -43,4 +47,3 @@ int main(){
 	return 0;
 }
 //@import url(http://kcdfg.wdfiles.com/local--theme/silent-silver-patch/style.css);
-
