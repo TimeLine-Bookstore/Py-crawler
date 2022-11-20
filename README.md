@@ -28,4 +28,4 @@ pip install bs4
 
 Warning! You need to add python to path!
 
-Run with EnRunMe.vbs(GUI) or main.exe(CLI).
+Run with EnRunMe.vbs(GUI) ,the batchfile or main.exe(CLI).
