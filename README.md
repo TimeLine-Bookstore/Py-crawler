@@ -15,3 +15,17 @@ pip install bs4
 Linux用户自行编译。
 
 生成的a.html可以删除
+
+## Save Wikidot HTML source codes(Py-crawler)
+
+**You need 2 library files: bs4 and requests.**
+
+Please install with:
+```
+pip install requests
+pip install bs4
+```
+
+Warning! You need to add python to path!
+
+Run with EnRunMe.vbs(GUI) and main.exe(CLI).
