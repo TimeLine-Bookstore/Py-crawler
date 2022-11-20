@@ -12,11 +12,13 @@ int main(int argc,char** argv){
 	fout.close();
 	char url[1024];
 	if(argc==1){
-	    cout<<"Example: http://helloos.wikidot.com/"<<endl;
-	    cout<<"Input URL> ";
-	    gets(url);
+		cout<<"Failed! Please run main.exe!"<<endl;
+		cout<<"Press ENTER to continue.";
+		string s;
+		getline(cin,s);
+		exit(0);
 	}else{
-	    sprintf(url,"%s",argv[1]);
+		sprintf(url,"%s",argv[1]);
 	}
 	//cout<<1;
 	char cmd[1536];
@@ -37,7 +39,22 @@ int main(int argc,char** argv){
 		exit(0);
 	}
 	string s;
-	fout.open("index.html");
+	char of[1024]={'\0'};
+	int i=strlen(url)-1;
+	string num;
+	for(;url[i]!='/';i--){
+		num.push_back(url[i]);
+	}
+	i-=3;
+	for(;url[i]!='/';i--){
+		s.push_back(url[i]);
+	}
+	s="lmth."+num+s;
+	for(int i=s.size()-1;i>=0;i--){
+		of[s.size()-1-i]=s[i];
+	}
+	cout<<of<<endl;
+	fout.open(of);
 	while(getline(fin,s)){
 		if(s=="                    @import url(/admin:themes/code/1);"){
 			fout<<"                    @import url("+char_to_str(url)+"admin:themes/code/1);"<<endl;
@@ -45,18 +62,6 @@ int main(int argc,char** argv){
 			fout<<s<<endl;
 		}
 	}
-	fout.close();
-	char url2[1024];
-	int n=1;
-	cout<<"Your pages of /pages> ";
-	int nu;
-	cin>>nu;
-	while(n<=nu){
-		sprintf(url2,"get-all-page %spages/p/%d",url,n);
-		system(url2);
-		n++;
-	}
 	return 0;
 }
 //@import url(http://kcdfg.wdfiles.com/local--theme/silent-silver-patch/style.css);
-	
