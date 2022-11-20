@@ -22,14 +22,14 @@ int main(int argc,char** argv){
 	sprintf(cmd,"crawler.py %s",url);
 	int a=system(cmd);
 	ifstream fin ("a.html");
-	if(!fin.is_open()){
-		cout<<"Failed!No file named a.html!"<<endl;
+	if(a==1){
+		cout<<"Failed!No file named crawler.py!"<<endl;
 		cout<<"Press ENTER to continue.";
 		string s;
 		getline(cin,s);
 		exit(0);
-	}else if(a==-1){
-		cout<<"Failed!No file named crawler.py!"<<endl;
+	}else if(!fin.is_open()){
+		cout<<"Failed!No file named a.html!"<<endl;
 		cout<<"Press ENTER to continue.";
 		string s;
 		getline(cin,s);
@@ -47,3 +47,4 @@ int main(int argc,char** argv){
 	return 0;
 }
 //@import url(http://kcdfg.wdfiles.com/local--theme/silent-silver-patch/style.css);
+	
