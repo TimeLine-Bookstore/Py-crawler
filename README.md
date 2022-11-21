@@ -16,6 +16,8 @@ Linux用户自行编译。
 
 生成的a.html可以删除
 
+对了！！您的网站应该给予匿名者检视页面的权限，否则无法正常爬取！
+
 ## Save Wikidot HTML source codes(Py-crawler)
 
 **You need 2 library files: bs4 and requests.**
