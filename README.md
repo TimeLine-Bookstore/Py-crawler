@@ -39,8 +39,10 @@ Linux用户自行编译。生成的a.html可以删除
 你可以给我们提供技术帮助？来[这里](http://mfb-private-website.wikidot.com/forum/c-7602920/)反馈，或者来[这里](https://github.com/TimeLine-Bookstore/Py-crawler/fork)拉取分支进行修改吧。
 
 ----------
+```
 Copyright (c) 2022 TimeLine-Bookstore
- All Rights Reserved.
+All Rights Reserved.
 
 版权所有 (c) 2022 时间轴书店
- 保留所有权利。
+保留所有权利。
+```
