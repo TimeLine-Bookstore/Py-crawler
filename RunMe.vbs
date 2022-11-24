@@ -1,4 +1,4 @@
-url=inputbox("ÇëÊäÈëÄúµÄÍøÕ¾URL")
+url=inputbox("è¯·è¾“å…¥æ‚¨çš„ç½‘ç«™URL")
 Set obj=createobject("wscript.shell")
 obj.run "cmd.exe /c main.exe "+url
-msgbox "Íê³ÉÅÀÈ¡¡£                         "
+msgbox "å¦‚æœç¨‹åºæ²¡æœ‰é—®é¢˜ï¼Œçˆ¬è™«åº”è¯¥é©¬ä¸Šå°±ä¼šè¿›è¡Œã€‚ "
