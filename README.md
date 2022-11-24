@@ -1,6 +1,12 @@
 ## 维基HTML代码存档（Py-crawler）
 
-**配置要求：使用爬虫需要安装bs4库和requests库！**
+这是用来创建一个爬虫工程，用于爬取wiki上存在的所有页面，用于在受灾后的网站静态只读版本。可能不适用于恢复工程，但是为恢复页面提供了依据。
+
+### **配置要求和依赖项**
+```
+Python3，
+使用爬虫需要安装bs4库和requests库！
+```
 
 请使用以下代码安装：
 ```
@@ -15,22 +21,6 @@ pip install bs4
 Linux用户自行编译。
 
 生成的a.html可以删除
-
-对了！！您的网站应该给予匿名者检视页面的权限，否则无法正常爬取！
-
-## Save Wikidot HTML source codes(Py-crawler)
-
-**You need 2 library files: bs4 and requests.**
-
-Please install with:
-```
-pip install requests
-pip install bs4
-```
-
-Warning! You need to add python to path!
-
-Run with EnRunMe.vbs(GUI) ,the batchfile or main.exe(CLI).
 
 ---------
 
