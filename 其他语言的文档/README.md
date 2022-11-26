@@ -15,8 +15,8 @@ Rankings are in no particular order.
 * [Esperanto](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/es)> Esperanto (eo)
 
 These are not standard translated documents, and some don't even have standard language codes, but we'll still keep these centers.
-* [华言古文](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/zh-Lit)> Chinese Literary (zh-Lit;No standard language code)
-* [梗体中文](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/zh-Joke)> Chinese Joke (zh-Joke;No standard language code)
+* [华言古文](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/zh-Lit)> Chinese Literary (zh-Lit; No standard language code)
+* [梗体中文](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/zh-Joke)> Chinese Joke (zh-Joke; No standard language code)
 
 ## You translate with documents
 Before you officially translate a document, we want you to be good at using the translator and the tools you already have. Learn what features and documentation mean. If you wish, please pull the branch to commit to us when you're done.
