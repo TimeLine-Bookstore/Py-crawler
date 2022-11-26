@@ -24,7 +24,7 @@ Please click on the latest version displayed in the sidebar `Releases` and selec
 Linux users compile their own. The generated a.html can be deleted
 
 ### **The crawler runs**
-* The runtime enables EN_RunMe.vbs (GUI) or GenMain.exe (CLI).
+* The runtime enables EN_RunMe.vbs (GUI) or main.exe (CLI).
 * Enter your URL in the graphical input field (GUI) or command line input area (CLI) and click Confirm.
 * Look at the number after page X of X displayed below your website's URL/pages page (in this case, the next x)
 * Enter this number in the command line input field {if you fill in too much (let this number be X, X≠0), it will output a 1~X HTML file (the name is pages1~pagesX.html) but (X-1) and X are the same}, and then wrap.
