@@ -24,7 +24,7 @@ pip install bs4
 Linux使用者自行編譯。 生成的a.html可以刪除。
 
 ### **爬蟲運行**
-* 運行時啟用Zh-TrRunMe.vbs.vbs（GUI）或main.exe（CLI）。
+* 運行時啟用Zh-Tr_RunMe.vbs.vbs（GUI）或Gen_Main.exe（CLI）。
 * 在圖形輸入欄（GUI）或者命令行輸入區（CLI）輸入你的網址，點擊確認。
 * 去查看你的網站URL/pages頁面下面顯示的page X of X的後面一個數（在本例子中就是後面一個x）
 * 命令行輸入區輸入這個數【如果你填多了（設這個數為X，X≠0），它會輸出1~X的HTML檔（名稱為pages1~pagesX.html）但是（X-1）和X是同一個】，然後換行。
