@@ -27,7 +27,7 @@ Linux用户自编译。 生成a.html可删
 * 行用RunMe.vbs(GUI)若main.exe(CLI)。
 * 于图形输入栏(GUI)或令行输入区(CLI)输入你的网址,点击确认。
 * 往视网站URL/pages页面下page X of X后一数(即后一也x)
-* 令行输入区输此数【若填多之(置此数为X,X≠0),当输1~XHTML文(名为pages1~pagesX.html)然(X-1)与X同】,然后换行。
+* 令行输入区输此数【若填多之(置此数为X,X≠0),当输1至X HTML文(名为pages1~pagesX.html)然(X-1)与X同】,然后换行。
 * 静待程序执行毕。 (若得一页面数升取,则常也,序上所有链接)
 * 成? 记得打包一文件夹,免教混淆。
 
