@@ -27,7 +27,7 @@ Linux-Benutzer kompilieren ihre eigenen. Die generierte a.html kann gelöscht we
 * Aktivieren Sie RunMe.vbs (GUI) oder main.exe (CLI) zur Laufzeit.
 * Geben Sie Ihre URL in das grafische Eingabefeld (GUI) oder den Befehlszeileneingabebereich (CLI) ein und klicken Sie auf Bestätigen.
 * Schauen Sie sich die Zahl nach Seite X von X an, die unter der URL / Seitenseite Ihrer Website angezeigt wird (in diesem Fall das nächste x)
-* Geben Sie diese Nummer in das Eingabefeld der Befehlszeile ein {wenn Sie zu viel eingeben (lassen Sie diese Zahl X, X≠0 sein), wird eine 1~X HTML-Datei ausgegeben (der Name ist pages1~pagesX.html), aber (X-1) und X sind gleich} und dann umbrechen.
+* Geben Sie diese Nummer in das Eingabefeld der Befehlszeile ein {wenn Sie zu viel eingeben (lassen Sie diese Zahl X, X≠0 sein), wird eine 1~X HTML-Datei ausgegeben (der Name ist pages1 to pagesX.html), aber ( X-1 ) und X sind gleich} und dann umbrechen.
 * Warten Sie, bis das Programm abgeschlossen ist. (Wenn Sie feststellen, dass eine Seite mehrere Crawls hat, ist dies normal, das Programm crawlt alle Links, die darauf vorhanden sind.)
 *Fertig? Denken Sie daran, in einen anderen Ordner zu packen, um Verwirrung zu vermeiden.
 
