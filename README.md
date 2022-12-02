@@ -4,20 +4,6 @@
 由于技术问题，目前无法使用C++编写爬虫，加上wikidot访问速度较慢，因此稍微有点慢，但是60次/分钟是差不多的。
 目前来说，这适用于所有Wikidot网站，但是为了防止恶意爬虫，任何网站必须有pages页面才可以爬。
 
-### **配置要求**
-```
-在你的电脑上必须要有Python3（最新版的效果可能会比较好）
-在你的网站URL/pages上建立一个页面，添加 [[module Pages preview="true"]] 代码
-```
-
-### **依赖项安装**
-注意！python3安装时需要选择“添加Python到PATH”才能用pip命令。
-请在cmd或PowerShell使用以下代码安装库文件：
-```
-pip install requests
-pip install bs4
-```
-
 ### **爬虫程序安装**
 请点击侧栏`Releases`中显示的最新版，选择Installer.exe结尾的安装文件。它将会把文件安装到同一目录。你只需要在键盘上点击对应按钮即可触发相应命令。
 
