@@ -9,6 +9,7 @@ bool is_pages(string s){
 int main(){
 	ifstream fin ("./html/pages1.html");
 	ofstream fout ("allurls.log");
+	map<string,bool> t_page;
 	int n=1;
 	while(fin.is_open()){
 		//cout<<n;
@@ -25,8 +26,10 @@ int main(){
 						url.push_back(s[i]);
 						i++;
 					}
-					if(url[0]!='\0'&&(!is_pages(url)))
+					if(url[0]!='\0'&&(!is_pages(url))&&!t_page[url]){
 						fout<<url<<endl;
+						t_page[url]=true;
+					}
 				}
 			}
 			

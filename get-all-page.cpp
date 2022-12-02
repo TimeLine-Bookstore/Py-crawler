@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<unistd.h>
 using namespace std;
 string char_to_str(char ch[]){
 	string s;
@@ -7,9 +8,20 @@ string char_to_str(char ch[]){
 	}
 	return s;
 }
+bool have_file(const char* name){
+	ifstream fins (name);
+	return fins.is_open();
+}
+bool have_floder(const char* name){
+	bool b=chdir(name)==0;
+	if(b) chdir("../");
+	return b;
+}
 int main(int argc,char** argv){
 	ofstream fout ("a.html");
 	fout.close();
+	if(have_file("a.html"))
+		system("del /f /q a.html");
 	char url[1024];
 	if(argc==1){
 		cout<<"Failed! Please run main.exe!"<<endl;
@@ -22,11 +34,11 @@ int main(int argc,char** argv){
 	}
 	//cout<<1;
 	char cmd[1536];
-	sprintf(cmd,"crawler.py %s",url);
+	sprintf(cmd,"crawler %s",url);
 	int a=system(cmd);
 	ifstream fin ("a.html");
 	if(a==1){
-		cout<<"Failed!No file named crawler.py!"<<endl;
+		cout<<"Failed!No file named crawler.exe!"<<endl;
 		cout<<"Press ENTER to continue.";
 		string s;
 		getline(cin,s);
