@@ -7,7 +7,7 @@
 ### **爬虫程序安装**
 请点击侧栏`Releases`中显示的最新版，选择Installer.exe结尾的安装文件。它将会把文件安装到同一目录。你只需要在键盘上点击对应按钮即可触发相应命令。
 
-Linux用户自行编译，具体见(这里)[note.ms/LOADING]。生成的a.html可以删除
+我们以后不再支持Linux。
 
 ### **爬虫运行**
 * 运行时启用RunMe.vbs(GUI)或main.exe(CLI)。
