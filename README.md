@@ -7,7 +7,7 @@
 ### **爬虫程序安装**
 请点击侧栏`Releases`中显示的最新版，选择Installer.exe结尾的安装文件。它将会把文件安装到同一目录。你只需要在键盘上点击对应按钮即可触发相应命令。
 
-Linux用户自行编译。生成的a.html可以删除
+Linux用户自行编译，具体见(这里)[note.ms/LOADING]。生成的a.html可以删除
 
 ### **爬虫运行**
 * 运行时启用RunMe.vbs(GUI)或main.exe(CLI)。
@@ -15,7 +15,7 @@ Linux用户自行编译。生成的a.html可以删除
 * 去查看你的网站URL/pages页面下面显示的page X of X的后面一个数（在本例子中就是后面一个x)
 * 命令行输入区输入这个数【如果你填多了（设这个数为X，X≠0），它会输出1～X的HTML文件（名称为pages1~pagesX.html）但是(X-1)和X是同一个】，然后换行。
 * 静静等待程序执行完毕吧。（若发现了一个页面有多次爬取，那是正常的，程序会爬上面存在的所有链接）
-* 完成了？记得打包到另一个文件夹，避免混淆。
+* 完成了？记得把html文件夹移动一下，避免混淆。
 
 ### **反馈地址**
 遇到了错误或BUG？来 [这里](http://ld-private-website.wikidot.com/forum/c-7602918/pyc) 反馈，或者来 [这里](https://github.com/TimeLine-Bookstore/Py-crawler/issues) 反馈。
