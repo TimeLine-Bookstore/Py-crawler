@@ -66,13 +66,38 @@ int main(int argc,char** argv){
 		
 	}
 	if(floder2!="\0"){
-		floder2=floder2+" ridkm";
-		for(int i=floder2.size()-1;i>=0;i--){
-			floder[floder2.size()-1-i]=floder2[i];
+		string fl2;
+		vector<string> var_flo;
+		floder2+=" ";
+		for(int i=0;i<floder2.size();i++){// delete/char/page
+			if(floder2[i]=='/'||floder2[i]==':'||i==floder2.size()-1){
+				var_flo.push_back(fl2);
+				fl2="";
+			}else{
+				fl2.push_back(floder2[i]);
+			}
 		}
 		chdir("html");
-		system(floder);
-		chdir("../");
+		for(int j=var_flo.size()-1;j>=0;j--){
+			string tmps=var_flo[j]+" ridkm";
+			for(int i=0;i<1024;i++){
+				floder[i]='\0';
+			}
+			for(int i=tmps.size()-1;i>=0;i--){
+				floder[tmps.size()-1-i]=tmps[i];
+			}
+			system(floder);
+			for(int i=0;i<1024;i++){
+				floder[i]='\0';
+			}
+			for(int i=var_flo[j].size()-1;i>=0;i--){
+				floder[var_flo[j].size()-1-i]=var_flo[j][i];
+			}
+			chdir(floder);
+		}
+		for(int j=var_flo.size();j>=0;j--){
+			chdir("../");
+		}
 	}
 	s="lmth."+s+"/lmth/.";
 	for(int i=s.size()-1;i>=0;i--){

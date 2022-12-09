@@ -17,6 +17,17 @@ bool have_floder(const char* name){
 	if(b) chdir("../");
 	return b;
 }
+bool compare_2_html(const char* file1,const char* file2){
+	ifstream fin1 (file1);
+	ifstream fin2 (file2);
+	string s1,s2;
+	while(getline(fin1,s1)||getline(fin2,s2)){
+		if(s1!=s2){
+			return false;
+		}
+	}
+	return true;
+}
 int main(int argc,char** argv){
 	if(!have_floder("html"))
 		system("mkdir html");// ./html/
@@ -60,12 +71,12 @@ int main(int argc,char** argv){
 	}
 	fout.close();
 	fin.close();
-	char url2[1024];
+	char url2[2048];
 	int n=1;
 	cout<<"Your pages of /pages> ";
 	int nu;
 	cin>>nu;
-	while(n<=nu){
+	while(n<nu){
 		sprintf(url2,"get-all-page %spages/p/%d",url,n);
 		system(url2);
 		n++;
