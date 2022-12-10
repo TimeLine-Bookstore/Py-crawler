@@ -76,7 +76,7 @@ int main(int argc,char** argv){
 	cout<<"Your pages of /pages> ";
 	int nu;
 	cin>>nu;
-	while(n<nu){
+	while(n<=nu){
 		sprintf(url2,"get-all-page %spages/p/%d",url,n);
 		system(url2);
 		n++;
