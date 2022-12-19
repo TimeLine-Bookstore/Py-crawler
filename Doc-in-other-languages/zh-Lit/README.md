@@ -6,16 +6,7 @@
 
 ### **配置所需**
 ```
-于子之电脑,必有Python3(最新版之效可校也)
 立页面于网站URL/pages,添 [[module Pages preview="true"]] 代码
-```
-
-### **赖项安装**
-注意! python3安须择"添Python至PATH"乃用pip令。
-请于cmd或PowerShell用以下代码安装库文。
-```
-pip install requests
-pip install bs4
 ```
 
 ### **虫程序安装**
