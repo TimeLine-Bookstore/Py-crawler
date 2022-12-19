@@ -1,21 +1,11 @@
 ## Wiki HTML Code Archiv（Py-crawler）
-
 Dies wird verwendet, um ein Crawler-Projekt zu erstellen, das alle im Wiki vorhandenen Seiten nach statischen schreibgeschützten Versionen der Website nach dem Notfall durchsucht. Es ist möglicherweise nicht für die Wiederherstellung des Projekts geeignet, bietet aber eine Grundlage für die Wiederherstellungsseite.
-Aufgrund technischer Probleme ist es derzeit nicht möglich, Crawler in C ++ zu schreiben, und der Wikidot-Zugriff ist langsam, also etwas langsam, aber 60 Mal / Minute ist ungefähr gleich.
 Derzeit gilt dies für alle Wikidot-Websites, aber um bösartige Crawler zu verhindern, muss jede Website eine Seitenseite zum Crawlen haben.
 
 ### **Konfigurationsanforderungen**
-```
-Sie müssen Python 3 auf Ihrem Computer haben (die neueste Version funktioniert möglicherweise besser)
-Erstellen Sie eine Seite auf Ihrer Website-URL/-Seiten und fügen Sie den Code [[module Pages preview="true"]] hinzu
-```
 
-### **Installation von Abhängigkeiten**
-Anmerkung! Wenn Sie python3 installieren, müssen Sie "Python zu PATH hinzufügen" auswählen, um den Befehl pip zu verwenden.
-Installieren Sie die Bibliotheksdateien in cmd oder PowerShell mit dem folgenden Code:
 ```
-pip install requests
-pip install bs4
+Erstellen Sie eine Seite auf Ihrer Website-URL/-Seiten und fügen Sie den Code [[module Pages preview="true"]] hinzu
 ```
 
 ### **Bot-Installation**
@@ -39,6 +29,7 @@ Sie haben eine Idee für ein neues Feature, wissen aber nicht, wo Sie Feedback g
 Können Sie uns technische Hilfe geben? Holen Sie sich [hier](http://ld-private-website.wikidot.com/forum/c-7602920/) Feedback oder ziehen Sie [hier](https://github.com/TimeLine-Bookstore/Py-crawler/fork) Zweige, um Änderungen vorzunehmen.
 
 ----------
+
 ```
 Copyright (c) 2022 TimeLine-Bookstore
 All Rights Reserved.
