@@ -1,21 +1,11 @@
 ## Wiki HTML code archive (Py-crawler)
 
 This is used to create a crawler project that crawls all pages present on the wiki for static read-only versions of the website after the disaster. It may not be suitable for restoring the project, but provides a basis for the restore page.
-Due to technical issues, it is currently not possible to write crawlers in C++, plus wikidot access is slow, so it is slightly slow, but 60 times/min is about the same.
 Currently, this applies to all Wikidot sites, but to prevent malicious crawlers, any site must have a pages page to crawl.
 
 ### **Configuration requirements**
 ```
-You must have Python 3 on your computer (the latest version may work better)
 Create a page on your website URL/pages and add the " [[module Pages preview="true"]] " code
-```
-
-### **Dependency installation**
-Note! When installing python3, you need to select "Add Python to PATH" to use the pip command.
-Install the library files in cmd or PowerShell with the following code:
-```
-pip install requests
-pip install bs4
 ```
 
 ### **Bot installation**
