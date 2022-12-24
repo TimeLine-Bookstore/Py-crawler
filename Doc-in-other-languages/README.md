@@ -10,8 +10,12 @@ Rankings are in no particular order.
 * [English](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/en)> English (en)
 * [繁體中文](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/zh-Hant)> Chinese Traditional (zh-Hant)
 * [日本語](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/ja)> Japanese (ja)
+* [한국어](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/ko)> Korean (ko)
+* [Français](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/fr)> French (fr)
 * [Русский язык](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/ru)> Russian (ru)
 * [Deutsch](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/de)> German (de)
+* [Português](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/pt)> Portuguese (pt)
+* [Tiếng Việt](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/vn)> Vietnam (vn)
 * [Esperanto](https://github.com/TimeLine-Bookstore/Py-crawler/tree/master/Doc-in-other-languages/es)> Esperanto (eo)
 
 These are not standard translated documents, and some don't even have standard language codes, but we'll still keep these centers.
