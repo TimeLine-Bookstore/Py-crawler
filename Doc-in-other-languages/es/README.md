@@ -30,10 +30,9 @@ Linux uzantoj kompilas mem. Name
 Ĉu vi povas provi al ni teknikan helpon? Venu ĉi tie. [Aŭ venu ĉi tie](http://ld-private-website.wikidot.com/forum/c-7602920/) - [Pulu la brancon por modifi ĝin](https://github.com/TimeLine-Bookstore/Py-crawler/fork).
 
 ----------
-``[pyrigh]([
-](https://github.com/TimeLine-Bookstore/Py-crawler/issues
-))t (c) 2022 TimeLine-Bookstore
+```
+Copyright (c) 2022 TimeLine-Bookstore
 All Rights Reserved.
-版權所有 （c） 2022 時間軸書店
-保留所有權利。
+Copyright (c) 2022 Timeline Bookstore
+Ĉiuj rajtoj rezervitaj.
 ```
