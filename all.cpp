@@ -6,6 +6,22 @@ bool is_pages(string s){
 	}
 	return 0;
 }
+bool have_str(string s,string s2){
+	if(s.size()>s2.size()) return 0;
+	for(int i=0;i<s2.size();i++){
+		bool b=1;
+		for(int j=0;j<s.size();j++){
+			if(s[j]!=s2[i+j]){
+				b=0;
+				break;
+			}
+		}
+		if(b){
+			return 1;
+		}
+	}
+	return 0;
+}
 int main(){
 	ifstream fin ("./html/pages1.html");
 	ofstream fout ("allurls.log");
@@ -14,7 +30,12 @@ int main(){
 	while(fin.is_open()){
 		//cout<<n;
 		string s;
+		bool b=false;
 		while(getline(fin,s)){
+			if(have_str("<div id=\"main-content\">",s)){
+				b=true;
+			}
+			if(!b){continue;}
 			for(int i=0;i<s.size();i++){
 				if(s[i]=='<'&&s[i+1]=='a'&&s[i+2]==' '){
 					i+=10;
