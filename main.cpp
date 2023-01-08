@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 #include<unistd.h>
+#include<windows.h>
 using namespace std;
+string version="2022122901";
+char version2[64]="2022122901";
 string char_to_str(char ch[]){
 	string s;
 	for(int i=0;i<strlen(ch);i++){
@@ -29,6 +32,19 @@ bool compare_2_html(const char* file1,const char* file2){
 	return true;
 }
 int main(int argc,char** argv){
+	//update();
+	string lan;
+	ifstream flan("lan");
+	if(!flan.is_open()){
+		cout<<"Welcome to use Py-Crawler ";
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),15);
+		cout<<"Free";
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),7);
+		cout<<" Edition"<<endl;
+	}else{
+		getline(flan,lan);
+		cout<<lan<<endl;
+	}
 	if(!have_floder("html"))
 		system("mkdir html");// ./html/
 	ofstream fout;
@@ -36,8 +52,15 @@ int main(int argc,char** argv){
 		system("del /f /q a.html");
 	char url[1024];
 	if(argc==1){
-	    cout<<"Example: https://timeline-bookstore.wikidot.com/"<<endl;
-	    cout<<"Input URL> ";
+		if(!flan.is_open()){
+		    cout<<"Example: https://timeline-bookstore.wikidot.com/"<<endl;
+		    cout<<"Input URL> ";
+		}else{
+			getline(flan,lan);
+			cout<<lan<<endl;
+			getline(flan,lan);
+			cout<<lan;
+		}
 	    gets(url);
 	}else{
 	    sprintf(url,"%s",argv[1]);
