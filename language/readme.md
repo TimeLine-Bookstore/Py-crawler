@@ -17,13 +17,13 @@
  # Русский
  Мы поддерживаем многоязычие! 
  
- Скачайте языковой пакет, который вам нужен, переименуйте его в « lan» и положите его в корневой каталог проекта, который вы можете использовать!
+ Скачайте языковой пакет, который вам нужен, переименуйте его в «lan» и положите его в корневой каталог проекта, который вы можете использовать!
  
  # Français
 
 Nous sommes maintenant multilingues!
 
-Téléchargez le pack de langue dont vous avez besoin, renommez - le "Lan", déposez - le à la racine du projet et utilisez - le!
+Téléchargez le pack de langue dont vous avez besoin, renommez - le "lan", déposez - le à la racine du projet et utilisez - le!
 
 # Español
 
