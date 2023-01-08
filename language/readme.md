@@ -1,3 +1,4 @@
+# Please change the code to ANSI.
 # بالعربية 
 
  الآن نحن نؤيد تعدد اللغات ! 
